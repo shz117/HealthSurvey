@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="yNb-9b-QcD">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12E55" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="yNb-9b-QcD">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
@@ -2222,7 +2222,7 @@
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="302" translatesAutoresizingMaskIntoConstraints="NO" id="dWb-se-Iwy">
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="301" translatesAutoresizingMaskIntoConstraints="NO" id="dWb-se-Iwy">
                                         <string key="text">小区周围有很多活动在步行距离内，比如商店，餐饮，办公，及其他服务等
 </string>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -2608,7 +2608,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1BC-Xv-E8L"/>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="(* 问题35－38与您的心理健康状态有关。" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mSd-nR-WeO">
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="(* 问题37－39与您的心理健康状态有关。" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mSd-nR-WeO">
                                         <constraints>
                                             <constraint firstAttribute="height" constant="36" id="bj6-X7-aXa"/>
                                         </constraints>
@@ -3278,6 +3278,13 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
         <class className="Question12to14p1" superclassName="HealthSurveyDataViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/Question12to14p1.h"/>
             <relationships>
+                <relationship kind="action" name="psw0:"/>
+                <relationship kind="action" name="psw1:"/>
+                <relationship kind="action" name="psw2:"/>
+                <relationship kind="action" name="psw3:"/>
+                <relationship kind="action" name="psw4:"/>
+                <relationship kind="action" name="psw5:"/>
+                <relationship kind="action" name="psw6:"/>
                 <relationship kind="outlet" name="sw0" candidateClass="UISwitch"/>
                 <relationship kind="outlet" name="sw1" candidateClass="UISwitch"/>
                 <relationship kind="outlet" name="sw2" candidateClass="UISwitch"/>
@@ -3297,6 +3304,15 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
         <class className="Question15to18" superclassName="HealthSurveyDataViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/Question15to18.h"/>
             <relationships>
+                <relationship kind="action" name="psw0:"/>
+                <relationship kind="action" name="psw1:"/>
+                <relationship kind="action" name="psw2:"/>
+                <relationship kind="action" name="psw3:"/>
+                <relationship kind="action" name="psw4:"/>
+                <relationship kind="action" name="psw5:"/>
+                <relationship kind="action" name="psw6:"/>
+                <relationship kind="action" name="psw7:"/>
+                <relationship kind="action" name="psw8:"/>
                 <relationship kind="outlet" name="q1518title" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="sw0" candidateClass="UISwitch"/>
                 <relationship kind="outlet" name="sw1" candidateClass="UISwitch"/>
@@ -3333,6 +3349,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
         <class className="Question23to29" superclassName="HealthSurveyDataViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/Question23to29.h"/>
             <relationships>
+                <relationship kind="action" name="psw:" candidateClass="UISwitch"/>
                 <relationship kind="outlet" name="q23tx" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="q24tx" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="q25tx" candidateClass="UITextField"/>
@@ -3418,6 +3435,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
         <class className="Question3to7" superclassName="HealthSurveyDataViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/Question3to7.h"/>
             <relationships>
+                <relationship kind="action" name="q6Abutton:"/>
                 <relationship kind="outlet" name="q3A" candidateClass="UIPickerView"/>
                 <relationship kind="outlet" name="q3title" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="q4Atext" candidateClass="UITextField"/>
@@ -3481,6 +3499,9 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
         <class className="Question8" superclassName="HealthSurveyDataViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/Question8.h"/>
             <relationships>
+                <relationship kind="action" name="pressa0:" candidateClass="UIButton"/>
+                <relationship kind="action" name="pressa1:" candidateClass="UIButton"/>
+                <relationship kind="action" name="pressa2:" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="a0" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="a1" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="a2" candidateClass="UIButton"/>
@@ -3493,6 +3514,13 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
         <class className="Question9to11p1" superclassName="HealthSurveyDataViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/Question9to11p1.h"/>
             <relationships>
+                <relationship kind="action" name="psw0:"/>
+                <relationship kind="action" name="psw1:"/>
+                <relationship kind="action" name="psw2:"/>
+                <relationship kind="action" name="psw3:"/>
+                <relationship kind="action" name="psw4:"/>
+                <relationship kind="action" name="psw5:"/>
+                <relationship kind="action" name="psw6:"/>
                 <relationship kind="outlet" name="sw0" candidateClass="UISwitch"/>
                 <relationship kind="outlet" name="sw1" candidateClass="UISwitch"/>
                 <relationship kind="outlet" name="sw2" candidateClass="UISwitch"/>
@@ -3512,6 +3540,8 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
         <class className="ScreeningQuestions" superclassName="HealthSurveyDataViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ScreeningQuestions.h"/>
             <relationships>
+                <relationship kind="action" name="q1answer:"/>
+                <relationship kind="action" name="q2answer:"/>
                 <relationship kind="outlet" name="q1answer" candidateClass="UISwitch"/>
                 <relationship kind="outlet" name="q1title" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="q2answer" candidateClass="UISwitch"/>
@@ -3521,6 +3551,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
         <class className="Thanksandsave" superclassName="HealthSurveyDataViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/Thanksandsave.h"/>
             <relationships>
+                <relationship kind="action" name="submit:" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="submitButton" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="thankYouTitle" candidateClass="UILabel"/>
             </relationships>
